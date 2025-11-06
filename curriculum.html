@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Steven Alejandro Álvarez Avendaño</title>
+    <!-- Importa Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Importa la fuente Inter de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Aplica la fuente Inter a todo el cuerpo */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Un fondo suave para toda la página */
+        body {
+            background-color: #f8fafc; /* Tailwind 'gray-50' */
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Contenedor principal -->
+    <div class="min-h-screen">
+
+        <!-- Sección de Encabezado (Hero) -->
+        <header class="bg-gradient-to-r from-indigo-600 to-purple-700 text-white p-8 md:p-16 rounded-b-3xl shadow-2xl">
+            <div class="container mx-auto max-w-5xl flex flex-col md:flex-row items-center gap-8">
+                <!-- Imagen de Perfil -->
+                <!-- IMPORTANTE: Asegúrate que la imagen 'Picsart_25-11-04_14-20-13-273.jpg' esté en la misma carpeta -->
+                <img src="fotoPerfil.jpg" 
+                     alt="Foto de Steven Álvarez" 
+                     class="w-40 h-40 md:w-48 md:h-48 rounded-full border-4 border-white shadow-lg object-cover flex-shrink-0"
+                     onerror="this.src='https://placehold.co/200x200/E0E7FF/3730A3?text=Steven+A.'; this.onerror=null;">
+                
+                <!-- Texto del Encabezado -->
+                <div class="text-center md:text-left">
+                    <h1 class="text-4xl md:text-5xl font-bold">Steven Alejandro Álvarez Avendaño</h1>
+                    <p class="text-xl md:text-2xl font-light mt-2 text-indigo-100">Estudiante de Ingeniería de Sistemas & Técnico en Programación</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Contenido Principal -->
+        <main class="container mx-auto max-w-5xl p-6 md:p-10">
+
+            <!-- Sección "Sobre Mí" (Perfil) -->
+            <section id="about" class="mb-12 bg-white p-8 rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl">
+                <h2 class="text-3xl font-bold text-indigo-700 mb-6">Sobre Mí</h2>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    Soy una persona proactiva y enfocada en mis objetivos, con facilidad para aprender rápido y con disposición para adquirir nuevos conocimientos cada día. Me considero paciente, perseverante y comprometido con mi trabajo, manteniendo siempre una actitud positiva ante los retos. Me adapto con facilidad a ambientes dinámicos y disfruto trabajar en equipo para alcanzar metas en común.
+                </p>
+            </section>
+
+            <!-- Sección de Contacto -->
+            <section id="contact" class="mb-12 bg-indigo-50 p-8 rounded-xl shadow-lg border border-indigo-100">
+                <h2 class="text-3xl font-bold text-indigo-700 mb-6">Información de Contacto</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Email -->
+                    <div class="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm">
+                        <svg class="w-8 h-8 text-indigo-600 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91A2.25 2.25 0 012.25 6.993v-.243" />
+                        </svg>
+                        <div>
+                            <span class="text-sm text-gray-500">Email</span>
+                            <a href="mailto:stevenalv9@gmail.com" class="text-lg font-medium text-indigo-700 hover:underline">stevenalv9@gmail.com</a>
+                        </div>
+                    </div>
+                    <!-- Teléfono -->
+                    <div class="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm">
+                        <svg class="w-8 h-8 text-indigo-600 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.211-.99-.55-1.33l-2.966-2.966c-.339-.34-.814-.55-1.33-.55h-1.99c-.516 0-.99.21-1.33.55l-.349.349a.75.75 0 01-1.06 0L7.5 15.25l-3.89-3.89a.75.75 0 010-1.06l.349-.349a1.724 1.724 0 01.55-1.33V6.75A2.25 2.25 0 006.75 4.5H4.5A2.25 2.25 0 002.25 6.75z" />
+                        </svg>
+                        <div>
+                            <span class="text-sm text-gray-500">Teléfono</span>
+                            <a href="tel:+50585471336" class="text-lg font-medium text-indigo-700 hover:underline">8547-1336</a>
+                        </div>
+                    </div>
+                    <!-- Ubicación -->
+                    <div class="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm md:col-span-2">
+                        <svg class="w-8 h-8 text-indigo-600 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                        </svg>
+                        <div>
+                            <span class="text-sm text-gray-500">Ubicación</span>
+                            <p class="text-lg font-medium text-gray-700">Masaya, Nicaragua</p>
+                            <p class="text-sm text-gray-600">Costado sur Colegio Alejandro Vega Matus, 1C al sur, 1C al este, 1/2C al sur</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección de Formación -->
+            <section id="education" class="mb-12">
+                <h2 class="text-3xl font-bold text-indigo-700 mb-8">Formación Académica</h2>
+                <div class="space-y-6">
+                    <!-- Tarjeta de Formación 1 -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200 transition-all duration-300 hover:shadow-xl hover:border-indigo-300">
+                        <h3 class="text-xl font-semibold text-gray-900">Ingeniería de Sistemas</h3>
+                        <p class="text-lg text-gray-600 mt-1">Universidad Nacional de Ingeniería (UNI), Managua</p>
+                        <div class="flex items-center gap-2 text-gray-500 mt-2">
+                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" /></svg>
+                            <span>mar 2024 - presente</span>
+                        </div>
+                    </div>
+                    <!-- Tarjeta de Formación 2 -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200 transition-all duration-300 hover:shadow-xl hover:border-indigo-300">
+                        <h3 class="text-xl font-semibold text-gray-900">Curso de Ingles Avanzado</h3>
+                        <p class="text-lg text-gray-600 mt-1">E4CC, Managua</p>
+                        <div class="flex items-center gap-2 text-gray-500 mt-2">
+                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" /></svg>
+                            <span>ene 2025 - ago 2025</span>
+                        </div>
+                    </div>
+                    <!-- Tarjeta de Formación 3 -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200 transition-all duration-300 hover:shadow-xl hover:border-indigo-300">
+                        <h3 class="text-xl font-semibold text-gray-900">Técnico Especialista en Programación</h3>
+                        <p class="text-lg text-gray-600 mt-1">Instituto Nacional Tecnológico, Masaya</p>
+                        <div class="flex items-center gap-2 text-gray-500 mt-2">
+                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" /></svg>
+                            <span>feb 2023 - oct 2023</span>
+                        </div>
+                    </div>
+                    <!-- Tarjeta de Formación 4 -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200 transition-all duration-300 hover:shadow-xl hover:border-indigo-300">
+                        <h3 class="text-xl font-semibold text-gray-900">Ingles Comunicativo Nivel I al Nivel IX</h3>
+                        <p class="text-lg text-gray-600 mt-1">Instituto CrossWay TecNica, Masaya</p>
+                        <div class="flex items-center gap-2 text-gray-500 mt-2">
+                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" /></svg>
+                            <span>sep 2020 - ago 2022</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección de Competencias -->
+            <section id="skills">
+                <h2 class="text-3xl font-bold text-indigo-700 mb-8">Competencias</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Tarjeta de Competencia -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg flex items-center gap-4 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                        <svg class="w-8 h-8 text-indigo-500 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        <span class="text-lg font-medium text-gray-700">Comunicación clara y asertiva</span>
+                    </div>
+                    <!-- Tarjeta de Competencia -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg flex items-center gap-4 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                        <svg class="w-8 h-8 text-indigo-500 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.898 20.624L16.5 21.75l-.398-1.126a3.375 3.375 0 00-2.456-2.456L12.75 18l1.126-.398a3.375 3.375 0 002.456-2.456L16.5 14.25l.398 1.126a3.375 3.375 0 002.456 2.456L20.25 18l-1.126.398a3.375 3.375 0 00-2.456 2.456z" /></svg>
+                        <span class="text-lg font-medium text-gray-700">Aprendizaje rápido y constante</span>
+                    </div>
+                    <!-- Tarjeta de Competencia -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg flex items-center gap-4 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                        <svg class="w-8 h-8 text-indigo-500 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 00-3.17-2.13l-.5-2.006a18.03 18.03 0 007.4-4.63l-1-1.732a18.03 18.03 0 00-7.4 4.63l-1.13-4.52a18.03 18.03 0 00-4.63-7.4l-1.732 1a18.03 18.03 0 004.63 7.4l-4.52 1.13a18.03 18.03 0 00-7.4-4.63l-1 1.732a18.03 18.03 0 007.4 4.63l-2.006.5A9.094 9.094 0 003 18.72V21a3 3 0 003 3h12a3 3 0 003-3v-2.28z" /></svg>
+                        <span class="text-lg font-medium text-gray-700">Trabajo en equipo y colaboración</span>
+                    </div>
+                    <!-- Tarjeta de Competencia -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg flex items-center gap-4 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                        <svg class="w-8 h-8 text-indigo-500 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" /></svg>
+                        <span class="text-lg font-medium text-gray-700">Paciencia y manejo de presión</span>
+                    </div>
+                    <!-- Tarjeta de Competencia -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg flex items-center gap-4 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                        <svg class="w-8 h-8 text-indigo-500 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-1.621-.87a3 3 0 01-.879-2.122v-1.007M9 17.25c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125v1.007M9 17.25c-.621 0-1.125-.504-1.125-1.125v-1.5c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125M9 17.25v-1.5H7.875c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125H9zm3.75 0v-1.5h1.125c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125H12.75z" /></svg>
+                        <span class="text-lg font-medium text-gray-700">Manejo de computadora y software</span>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Pie de Página -->
+        <footer class="text-center p-10 mt-12 border-t border-gray-200">
+            <p class="text-gray-500 text-sm">
+                &copy; 2025 Steven Alejandro Álvarez Avendaño. Todos los derechos reservados.
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
